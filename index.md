@@ -97,7 +97,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p id='room'>
 <strong>Room: </strong>
-Matthias 2013
+Matthias 1013
 </p>
 
 {% comment %}

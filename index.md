@@ -195,7 +195,7 @@ Matthias 1013
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -316,9 +316,9 @@ Matthias 1013
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
@@ -393,6 +393,40 @@ Matthias 1013
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+
+<div id="sql"> {% comment %} Start of 'SQL' section. {% endcomment %}
+  <h3>SQL</h3>
+  <p>
+    SQL is a specialized programming language used with databases. For this lesson you will use <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a>.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="sql-windows">Windows</h4>
+      <p>Download the Windows installer from <a href="http://sqlitebrowser.org/">http://sqlitebrowser.org/</a>
+      Most systems will use the 64-bit version, but if your computer is using a 32-bit version of Windows, you will need the 32-bit installer.
+      </p>
+      <p>Run the .exe file that is downloaded to start the installer. <em>Note: you will need administrative privileges to successfully install.</em></p>
+      <p>Choose all the default options in the installer screens.</p>
+      <p>"DB Browser for SQLite" will now be available in your Start Menu.</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="sql-mac">Mac</h4>
+      <p>Download the Mac .dmg file from <a href="http://sqlitebrowser.org/">http://sqlitebrowser.org/</a></p>
+      <p>Open the .dmg file by double-clicking it.</p>
+      <p>Drag the "DB Browser for SQLite" icon to your Applications folder</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="sql-linux">Linux</h4>
+      <p>For Ubuntu based systems run the following commands entering your account's password when prompted:</p>
+      <p><code>sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser</code></p>
+      <p><code>sudo apt-get update</code></p>
+      <p><code>sudo apt-get install sqlitebrowser</code></p>
+      <p><em>For other Linux distributions, please email <a href='mailto:{{email}}'>{{email}}</a> for assistance</p>
+    </div>
+  </div>
+</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+
 
 <h2 id="setup">Optional</h2>
 <p>

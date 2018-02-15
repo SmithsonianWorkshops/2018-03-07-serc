@@ -422,7 +422,7 @@ Matthias 1013
       <p><code>sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser</code></p>
       <p><code>sudo apt-get update</code></p>
       <p><code>sudo apt-get install sqlitebrowser</code></p>
-      <p><em>For other Linux distributions, please email <a href='mailto:{{email}}'>{{email}}</a> for assistance</em></p>
+      <p><em>For other Linux distributions, please email <a href='mailto:SI-DataScience@si.edu'>SI-DataScience@si.edu</a> for assistance</em></p>
     </div>
   </div>
 </div> {% comment %} End of 'SQL' section. {% endcomment %}

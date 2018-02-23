@@ -108,7 +108,8 @@ Matthias 1013
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}.
+  {{page.humandate}}, {{page.humantime}}.
+  <strong>Attendees must attend entire workshop.</strong>
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
